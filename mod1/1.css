@@ -1,0 +1,44 @@
+/*chcek */
+
+h1 {
+    color:blue;
+    font-size:12px;
+
+}
+
+p {color:red;
+    
+}
+
+p#t{color:green;
+
+}
+
+h1 p{color:yellow;}
+
+*{
+  margin: 15px;
+}
+
+h1#test{
+  margin:  25px;
+}
+
+h1#test:hover{
+  margin: 30px;
+}
+
+p::first-letter{
+  font-size: 50px;
+  }
+
+
+.second {
+  background: green;
+}
+
+section + section  {
+  background: black;
+}
+
+
