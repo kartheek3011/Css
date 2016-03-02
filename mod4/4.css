@@ -1,0 +1,32 @@
+div#outer
+{
+  text-align: center;
+  margin: 0 10% 40% 0%;
+  background: #555 ;
+  min-height: 60% ;
+  padding: 3%  10%;
+} 
+
+div#inner
+{
+  border-style: dashed ;
+  border-color: blue;
+  border-width: 3px;
+  min-height: 40%;
+  padding: 3%  5% 5%;
+} 
+
+div#core
+{
+  border-style: dotted;
+  border-color: red;
+  border-width: 5px;
+  min-height: 30%;
+  padding: 3%;
+  /*min-width:  200px;*/
+/*How can we add the min width along with padding in 
+* outer or the present tag to make it responsive ? */
+ 
+}  
+
+
