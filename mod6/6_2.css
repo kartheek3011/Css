@@ -1,0 +1,60 @@
+body{
+  margin: 30px;
+}
+
+div{
+	background-color: #00BCD4; 
+	height: 78px;
+  /*text-decoration: none;
+   * This has no effect on inner text as of now .WHy ?*/
+}
+
+div a{
+  text-decoration: none;
+}
+
+#logo{
+
+	float: left;
+	padding:30px 3%;
+}
+
+.navigation{
+	float: right;
+	padding: 30px 2.5%;
+}
+
+div :hover{
+	background-color: white	;
+}
+
+ul{
+  border-bottom: solid 2px;
+  margin-top: 0px;
+  padding: 0px 0% 0px;
+  list-style-type: none;
+  float: left;
+  width: 15%;
+  height: 100%;
+  background-color: grey;
+  opacity: 0.4;
+}  
+
+li{
+  text-align: center;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: black;
+  padding:5px 0px;
+}  
+
+footer{
+    clear: both;
+    text-align: center;
+    float: left;
+    background-color: purple;
+    height: 5%;
+    /*width: 100%*/
+}
+
+

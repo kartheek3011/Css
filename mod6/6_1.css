@@ -1,0 +1,40 @@
+div{
+
+	height: 90px;
+	width:  30%;
+	padding: 15px 15px;
+	background-color: #009688;
+	opacity: 0.5;
+	margin: 20px;
+	border: ridge;
+	text-align: center;
+}
+
+#d1 #d4{
+	position: static;
+
+}
+
+#d2{
+	position: absolute;
+	z-index: 1;
+	top: 40px;
+	left: 100px;
+}
+
+#d3{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+
+
+#d5{
+	position: relative;
+	top: -175px;
+	left: 320px;
+	z-index: 2;
+	color: black;
+	
+}
+
