@@ -3,6 +3,11 @@ body{
 	padding: 3%;
 }
 
+header{
+	text-align: center;
+	line-height: 5em;
+	font-size: 1em;
+}
 #atlas-container{
 	background: url("./atlas.jpg") no-repeat;
 	height: 100%;
@@ -11,37 +16,23 @@ body{
 }
 
 #browser-icons-container{
-	height: 30%;
+	height:30%;
 	width: 50%;
 }
 
 .browser-icon{
-	height: 15%;
-	width: 10%;
-	margin: 320px 2% 0%;
-	/* background-size: 110%; the background size is not working */
+	height: 16%;
+	width: 9%;
+	margin: 175px 2.8% 0%;
 	float: left;
 	
 }
 
+img{
+	height: 100%;
+	width: 86%;
+}
+
 #chrome{
-	background: url("./chrome.png") no-repeat;
-	margin-left: 20%;
+	margin-left: 18%;
 }
-
-#firefox{
-	background: url("./firefox.png") no-repeat;
-}
-
-#safari{
-	background: url("./safari.png") no-repeat;
-}
-
-#explorer{
-	background: url("./explorer.png") no-repeat;
-}
-
-#opera{
-	background: url("./safari.png") no-repeat;
-}
-
