@@ -1,103 +1,47 @@
-*
-{
-	font-family : 'Open Sans',sans-serif;
-	text-align: justify;
+body{
+	background: #4285F4;
+	padding: 3%;
+}
+
+#atlas-container{
+	background: url("./atlas.jpg") no-repeat;
+	height: 100%;
+	background-size: 100% 110%;
 
 }
 
-body 
-{
-	background: #b2b2b2;
-	margin-left :  100px; 
-	margin-right:  100px;
+#browser-icons-container{
+	height: 30%;
+	width: 50%;
 }
 
-div.body
-{
-	background: url("./road.jpg")  -8px no-repeat;
-	background-size: cover;
-  padding-left : 100px;
-  padding-right : 100px;
-	padding-top :  50px; 
-	padding-bottom :  50px; 
-	/*background-color: rgba(0, 0, 0, .3);
-	background-image: url("./road.jpg") no-repeat;
-	background-position: 20px 100px ;
-	something wrong with this .This isnt working. The image is not displayed
-	--------DOUBT-------- 
-	*/	
-}
-div.browsers
-{
-  width: 100%;
-  height: 100px;  
-
-} 
-
-div.chrome
-{
-
-  height: 100%;
-  width: 70px;
-  float: left ;
-  /*padding-left: 20px;*/
-  padding-right: 20px;
-	background: url("./1.png")  -8px no-repeat;
-  /*background-position: 20px ;*/
-  background-size: auto;*/
-} 
-/*The height and width needs to be specifically given if req more.*/
-/*Here its almost 0 .Hence given.*/
-div.dolphin
-{
-  height: 100%;
-  width: 100px;
-  background: url("./2.png") no-repeat ;
-  /*background-position: 20px;*/
-  float: left;  
-} 
-header 
-{
-	margin: 0px;
-	font: normal ;
-	font-weight: 700 ;
-	font-size:	24px ;
-	line-height: 45px;
+.browser-icon{
+	height: 15%;
+	width: 10%;
+	margin: 320px 2% 0%;
+	/* background-size: 110%; the background size is not working */
+	float: left;
+	
 }
 
-#first_lines
-{
-	font-weight: 550 ;
-	font-size: 19px ;
-	word-spacing: 0.5em;
-	line-height: 25px;
-
+#chrome{
+	background: url("./chrome.png") no-repeat;
+	margin-left: 20%;
 }
 
-#quote1
-{
-	//margin-left: -20px ;
-	padding-left: 0px ;
-	margin-right: 100px ;
-	word-spacing: 0.2em;
-	font-size: 17px;
-	font-weight:  400;
-	border-left-style: solid;
-	border-width: 10px;
-
-
+#firefox{
+	background: url("./firefox.png") no-repeat;
 }
 
-
-#quote1 blockquote
-{
-	margin-left: 25px;
-	padding-left: 25px;
-	margin-right: 0px;	
+#safari{
+	background: url("./safari.png") no-repeat;
 }
 
-#second_lines
-{
-	font-size: 17px;
-	font-weight: 300;
+#explorer{
+	background: url("./explorer.png") no-repeat;
 }
+
+#opera{
+	background: url("./safari.png") no-repeat;
+}
+

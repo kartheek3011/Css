@@ -1,26 +1,35 @@
-*
+body
 {
 	font-family : 'Open Sans',sans-serif;
-	margin-left :  100px; 
-	margin-right:  100px;
-	text-align: justify;
+	margin-left :  20%; 
+	margin-right:  20%;
+	text-align: left ;
 }
 
 header 
 {
 	margin: 0px;
 	font: normal ;
-	font-weight: 700 ;
-	font-size:	24px ;
-	line-height: 45px;
+	font-size:	33px ;
+	line-height: 55px;
+}
+
+
+header p{
+	font-size: 17px;
+	line-height: 40px;
+	padding-bottom: 0px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
 }
 
 #first_lines
 {
-	font-weight: 550 ;
-	font-size: 19px ;
+	font-weight: 500 ;
+	font-size: 20px ;
 	word-spacing: 0.5em;
 	line-height: 25px;
+	opacity: 0.8;
 
 }
 
@@ -28,26 +37,31 @@ header
 {
 	//margin-left: -20px ;
 	padding-left: 0px ;
-	margin-right: 100px ;
 	word-spacing: 0.2em;
-	font-size: 17px;
-	font-weight:  400;
+	font-size: 15px;
+	font-weight:  200;
 	border-left-style: solid;
-	border-width: 10px;
-
+	border-width: 4px;
+	line-height: 20px;
 
 }
+
+
 
 
 #quote1 blockquote
 {
-	margin-left: 25px;
-	padding-left: 25px;
-	margin-right: 0px;	
+	margin :30px 0px 30px 0px;
+	padding-left: 20px;
+	opacity: 0.7;
+
 }
 
 #second_lines
 {
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 300;
+	line-height: 22px;
+	opacity: 0.7;
 }
+
