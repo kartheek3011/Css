@@ -11,21 +11,27 @@ header{
 #atlas-container{
 	background: url("./atlas.jpg") no-repeat;
 	height: 100%;
-	background-size: 100% 110%;
+	background-size: 100% 100%;
 
 }
 
-#browser-icons-container{
-	height:30%;
-	width: 50%;
+.browser-icons-container{
+	margin-top: 175px;
+	height:15%;
+	width: 100%;
 }
 
 .browser-icon{
-	height: 16%;
-	width: 9%;
-	margin: 175px 2.8% 0%;
+
+	text-align:center;
+	width: 20%;
+	/*height: 16%; width: 9%; margin: 175px 2.8% 0%;*/
 	float: left;
 	
+}
+span{
+	display: inline-block;
+	border-radius: 25%;
 }
 
 img{
@@ -33,6 +39,4 @@ img{
 	width: 86%;
 }
 
-#chrome{
-	margin-left: 18%;
-}
+
