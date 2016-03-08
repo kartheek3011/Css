@@ -1,0 +1,62 @@
+
+Heading - h1 to h6
+
+display:block;
+margin-start: 0;
+margin-end: 0;
+font-weight: bold; 
+
+
+Font-size varies for diff h1 to h7
+
+	h1
+	font-size: 2em;
+	margin-before: 0.67em;
+	margin-after: 0.67em;
+
+	h2
+	font-size: 1.5em;
+	margin-before: 0.83em;
+	margin-after: 0.83em;
+
+	h3
+	font-size: 1.17em;
+	margin-before: 1em;
+	margin-after: 1em;
+
+	h4
+	margin-before: 1.33em;
+	margin-after: 1.33em;
+
+	h5
+	 font-size: .83em;
+	margin-before: 1.67em;
+	margin-after: 1.67em;
+
+
+	h6
+	 font-size: .67em;
+	margin-before: 2.33em;
+	margin-after: 2.33em;
+
+Head
+display: none;
+
+p
+display: block;
+margin-start: 0;
+margin-end: 0; 
+margin-before: 1em;
+margin-after: 1em;
+
+span
+display: inline;
+
+label
+cursor: default;
+
+
+
+
+Most of the block elements will give a page break before and after the element.
+But the inline doesnt.

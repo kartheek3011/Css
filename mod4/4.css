@@ -1,28 +1,39 @@
+
+h2{
+  margin-top: 23px;
+  margin-bottom: 0;
+}
+
 div#outer
 {
   text-align: center;
-  margin: 0 10% 40% 0%;
-  background: #555 ;
-  min-height: 60% ;
-  padding: 3%  10%;
+  height: 400px;
+  width: 1000px;
+  background: #A5A5A5;
+  padding:0 50px 50px 50px ;
+  border: solid 2px #FFA500 ;
 } 
 
 div#inner
 {
+  height: 300px;
+  width: 900px;
+  padding: 0 50px 50px 50px ;
   border-style: dashed ;
   border-color: blue;
-  border-width: 3px;
-  min-height: 40%;
-  padding: 3%  5% 5%;
+  border-width: 2px;
+  background :white;
 } 
 
 div#core
 {
-  border-style: dotted;
-  border-color: red;
-  border-width: 5px;
-  min-height: 30%;
-  padding: 3%;
+  height: 200px;
+  width: 800px;
+ // min-height: 30%;
+  padding:0 50px 50px 50px ;
+  background: #D5D5D5;
+  border: dotted #008000 2px;
+  border-radius: 5px;
   /*min-width:  200px;*/
 /*How can we add the min width along with padding in 
 * outer or the present tag to make it responsive ? */
