@@ -22,11 +22,10 @@ header{
 }
 
 .browser-icon{
-
+	display: inline-block;
 	text-align:center;
-	width: 20%;
+	width: 19%;
 	/*height: 16%; width: 9%; margin: 175px 2.8% 0%;*/
-	float: left;
 	
 }
 span{
