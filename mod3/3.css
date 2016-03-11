@@ -3,10 +3,14 @@ body{
 	padding: 3%;
 }
 
-header{
+header h3{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+	color: white;
 	text-align: center;
 	line-height: 5em;
-	font-size: 1em;
+	font-size: 1.2em;
+	text-transform: capitalize;
 }
 #atlas-container{
 	background: url("./atlas.jpg") no-repeat;
@@ -16,8 +20,9 @@ header{
 }
 
 .browser-icons-container{
-	margin-top: 175px;
-	height:15%;
+	display: inline-block;
+	margin-top: 150px;
+	height:130px;
 	width: 100%;
 }
 
@@ -25,17 +30,41 @@ header{
 	display: inline-block;
 	text-align:center;
 	width: 19%;
+	height: 100%;
+
 	/*height: 16%; width: 9%; margin: 175px 2.8% 0%;*/
-	
+	/*padding: 0px 25;*/
 }
+
 span{
 	display: inline-block;
+	text-align: center;
+	width : 80%;
+	height: 85%;
 	border-radius: 25%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
 
-img{
-	height: 100%;
-	width: 86%;
+#chrome{
+	background-image: url("https://raw.githubusercontent.com/alrra/browser-logos/master/chrome/chrome_128x128.png");
+}
+
+#firefox{
+	background-image: url("https://raw.githubusercontent.com/alrra/browser-logos/master/firefox/firefox_128x128.png");
+}
+
+#safari{
+	background-image: url("https://raw.githubusercontent.com/alrra/browser-logos/master/safari/safari_128x128.png");
+}
+
+#opera{
+	background-image: url("https://raw.githubusercontent.com/alrra/browser-logos/master/opera/opera_128x128.png");
 }
 
 
+#explorer{
+	background-image: url("https://raw.githubusercontent.com/alrra/browser-logos/master/internet-explorer/internet-explorer_128x128.png");
+}
