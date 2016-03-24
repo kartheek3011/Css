@@ -2,73 +2,39 @@ body{
 	margin:5% 5%;
 	font-family : 'Open Sans',sans-serif;
 }
-hr{
-	float: left ;
-	width:90%;
-	height: 2px;
-	border-style:none;
-	background-color: #5BBEE1;
+
+.block{
+	display:  inline-block;
+	width : 33%;
+	text-align: center;
 }
 
+#block1 hr,#block2 hr{
+	display: inline-block;
+	background:  #5BBEE1;
+	height: 2px;
+	border-style: none; 
+	width: 100%;
+	margin : 0;
+	position: relative;
+	top : -8px;
+	left: 50%;
+}
+
+.block > div , .block .circle , .block .p{
+	text-align: center;
+}
+
+
+
 .circle{
-	float: left;
+	display: inline-block;
 	margin-top: 2px;
 	height: 16px;
 	width: 16px;
 	border-radius: 8px;
 	background-color: #5BBEE1;
 }
-
-
-
-#c1{
-	margin-left: -90%;
-}
-
-#c2{
-	margin-left: -46%;
-}
-
-#c3{
-	margin-left: -1%;
-}
-
-#text_status{
-	margin-right:9%;	
-}
-
-ul#status , ul#date{
-	clear: both;
-	list-style-type: none;
-	padding : 4px 0%;
-	margin: 0% auto;
-	
-}
-
-
-#text_status li , #date li{
-	display: inline-block;
-	font-weight: 700;
-	width: 33%;	
-	height: 20px;
-	margin : 0;
-}
-
-#text_status p,#date p{
-	display: inline-block;
-	margin : 0;
-}
-
-
-#status li#text2 , #date li#text2{
-	text-align: center;
-}
-
-
-#status li#text3 , #date li#text3{
-	text-align: right;
-}
-
 
 #date{
 	opacity: 0.5;
@@ -119,11 +85,18 @@ ul#status , ul#date{
 
 
 #sec2 li:last-child hr:first-child{
-	transform: translate(-15.5px,-13.5px) rotate(90deg);
+	transform: translate(-17px,-13.5px) rotate(90deg);
+}
+
+#sec2 i{
+	display: inline-block;
+	color: #5BB84E;
+	margin: 0 10px;
 }
 
 #sec2 hr {
 	width: 33px;
+	height: 1px;
 	margin: 8px 0;
 	background-color: rgba(5,5,5,0.3);
 
@@ -159,7 +132,6 @@ ul#status , ul#date{
 
 #sblock1{
 	margin-left: 50px;
-	border-left: solid 4px #9B9B9B;
 	clear: both;
 	color: #9B9B9B;
 	font-size: 18px;
@@ -169,17 +141,27 @@ ul#status , ul#date{
 #sblock1 ul{
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-left: 0;
 }
 
 #sec3_status{
-	list-style-type: none;
-	margin-left: -64px; 
+	list-style-type: none; 
 }
 
 #sec3_status p{
 	margin: 0;
 	display: inline-block;
 
+}
+
+#sec3_status hr{
+	display: inline-block;
+	width: 19px;
+	height: 4px;
+	margin: 0;
+	background-color: #9B9B9B;
+	border-style: none;  
+	transform:translate(-30px,20px) rotate(90deg);
 }
 
 #sec3_status p:first-child{ 
@@ -192,8 +174,12 @@ ul#status , ul#date{
 	background-color: #5BB84E;
 	line-height: 40px;
 	height: 35px;
-	margin: 2.5px 2px;
 }	
+
+
+#sec3_status li:last-child p:last-child{
+	margin-left: 19px;
+}
 
 
 #sec3_status p:last-child{
@@ -202,22 +188,6 @@ ul#status , ul#date{
 	padding : 15px 0 15px 60px;
 }	
 
-#sec3_status li:first-child p:first-child{
-		margin-top: 0;
-}
-
-#sec3_status li:last-child p:first-child{
-		margin-bottom: 0;
-}
-
-
-#sec3_status li:first-child p:last-child{
-		padding-top: 0;
-}
-
-#sec3_status li:last-child p:last-child{
-		padding-bottom: 0;
-}
 
 #sblock1 , #sblock2{
 	width: 45%;

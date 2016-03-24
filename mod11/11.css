@@ -1,0 +1,260 @@
+/*==============================================================================
+My modelling is as follows.
+
+Section 
+Sub Section
+	Elements inside sub section
+		The above element with special Properties making it unique to see and handle.	
+
+================================================================================*/
+
+body{
+	margin:5% 5%;
+	font-family : 'Open Sans',sans-serif;
+}
+
+/*================================================
+Section 1 starts here
+=================================================*/
+
+/*Block related properties*/
+.block{
+	/*Display*/
+	display:  inline-block;
+	width : 33%;
+	/*Other*/
+	text-align: center;
+}
+
+#block1 hr,#block2 hr{
+	/*Position*/
+	position: relative;
+	top : -8px;
+	left: 50%;
+	/*Display*/
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	margin : 0;
+	background:  #5BBEE1;
+	border-style: none; 
+}
+
+/*Components of Block related properties*/
+/*Circle inside block*/
+.circle{
+	/*Display*/
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-top: 2px;
+	background-color: #5BBEE1;
+	border-radius: 8px;
+}
+
+/*Date inside blosck*/
+.date{opacity: 0.5;}
+
+/*Cumulative Blocks*/
+.block > div, 
+.block .circle, 
+.block .p{text-align: center;}
+
+/*================================================
+Section 2 starts here
+Adverstisement_metrics consists of summary and Graphs as sub Blocks
+=================================================*/
+
+#sec2{margin: 30px 0 30px 0;}
+
+/*Sub Blocks inside the section2*/
+.advertisement_metrics{
+	float:left;
+	font-size: 20px;
+	width: 48%;
+}
+
+/*Sub block - Summary*/
+#summary{
+	margin-left: 5%;
+	width: 43%;
+}
+
+
+/*component inside Sub Blocks -Generalised*/
+
+	/*Paragraph*/
+	#sec2 p{margin-bottom: 0;}
+
+	/*List*/
+	.list{
+		/*display*/
+		margin-top:0;
+		margin-bottom:0;
+		padding:0;
+		list-style: none;
+		margin-left: 7px;
+	}
+
+	/*List items*/
+	.list li{
+		padding: 18px 0;
+		border-left:solid 2px rgba(5,5,5,0.3);
+	}
+
+		.list li:first-child{
+			padding-top: 15px;
+		}
+		.list li:last-child{
+			border-left:0;
+		}
+
+		.list li:last-child span{
+			width: 33px;
+			height: 18px;
+		}
+
+	.list span{
+		display: inline-block;
+	}
+
+	.list hr{
+		width: 33px;
+		height: 1px;
+		margin: 7px 0;
+		background-color: rgba(5,5,5,0.3);
+	}
+
+		.list li:last-child hr:first-child{
+			transform: translate(-17px,-13.5px) rotate(90deg);
+		}
+
+		.list li:last-child hr:last-child{
+		margin:-8px 0 0 0;
+		}
+
+	.list i{
+		margin: 0 10px;
+		display: inline-block;
+		color: #5BB84E;
+	}
+
+#sec2 :not(span){  
+	/*should be something else*/
+	opacity: 0.8;
+}
+
+
+/*================================================
+Section 3 starts here.
+It consists of sblock1 and sblock2 as Sub Blocks.
+=================================================*/
+#sec3{
+	margin: 30px 0 30px 0;
+}
+
+/*Sub Block 1*/
+#sblock1{
+	/*Display*/
+	clear: both;
+	margin-left: 50px;
+	/*font*/
+	color: #9B9B9B;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+	#sec3_status{
+		list-style-type: none; 
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+
+
+	#sec3_status p{
+		margin: 0;
+		display: inline-block;
+
+	}
+
+		#sec3_status p:first-child{ 
+		/*Display*/
+		display: inline-block;
+		text-align: center;
+		width: 36px;
+		height: 35px;
+		line-height: 40px;
+		border: solid 2.0px #9B9B9B;
+		border-radius: 40px;
+		background-color: #5BB84E;
+		/*font*/
+		color: white;
+		}	
+
+		#sec3_status p:last-child{
+			display: inline-block;
+			width : 60%;
+			padding : 15px 0 15px 60px;
+		}	
+
+		#sec3_status li:last-child p:last-child{
+			margin-left: 19px;
+		}
+		/*======================DOUBT==================================================
+		1.Here addition of last li with an ID .Is it preferrable?
+		2.Is it advisable to use li with classes .
+		3.If vary the width of the hr , the space between the paragraph1 and 2 is affected .I mean
+		  that space between numbers and description is varying because of the insertion of hr.
+		  How to get rid of this ? 
+		  =============================================================================*/
+
+	#sec3_status hr{
+		/*Display*/
+		display: inline-block;
+		width: 19px;
+		height: 4px;
+		margin: 0;
+		background-color: #9B9B9B;
+		border-style: none;  
+		transform: translate(-30px,20px) rotate(90deg);
+	}
+
+
+/*Sub Block1 and 2 cumulative*/
+#sblock1,
+#sblock2{
+	width: 45%;
+	float: left;  
+}
+/* ===============================================INFO====================================
+	float allows us to get to the top of present block.whereas display allows us to get to 
+	the last line of present but based on content it expands upward
+	for understanding , lets take toggle float and display alternatively , you will understand. 
+	Also maintain the height for clear difference.
+	======================================================================================*/
+	/*display: inline-block;*/
+
+/*Sub Block 2*/
+#sblock2{
+	/*Display*/
+	height: 160px;
+	margin-top: 78px;
+	text-align: center;
+	border: solid 0.3px rgba(0,0,0,0.2);
+	border-radius: 6px;
+}
+	/*Components inside SubBlock*/
+	/*Header*/
+	#sblock2 h3{
+		font-weight: 500;
+	}
+
+	button{
+		/*Display*/
+		height: 45px;
+		width: 60%;
+		border: solid 0px;
+		border-radius: 6px;
+		background: #5ABDEB;
+	}

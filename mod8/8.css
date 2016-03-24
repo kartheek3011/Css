@@ -1,0 +1,205 @@
+/*Doubt in the bootstrap site .The place where the classes hve been changing on the click of the side button .*/
+
+body{
+	margin: 0px;
+	background: #5D4384;
+}
+
+h3{
+	margin: 0;
+	padding: 16.2px 0 16.2px 0;	
+	text-align: center;
+	color: white;
+	background-color: #0275D8;
+}
+
+@media all and (max-width: 659px){
+	#menu_container{
+		font-family : 'Open Sans',sans-serif;
+		content: "";
+		display: table;
+		padding: 0% 5% 0% 5%;
+		width: 90%;
+		background-color: #FFFFFF;
+	}	
+	
+	.Menu1:hover{
+		background-color: rdgba(45,45,45);;	
+	}
+	.Menu1{
+		display: inline-block;
+		padding:22px 0.8%;
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	.Menu2 , .Menu3{
+		display: none;
+	}
+
+	.menu_display{
+		width: 15px;
+		display: inline-block;
+		float: right;
+		padding:20px 0.8%;
+	}
+
+	label{
+		cursor: pointer;		
+	}
+	.menu_display:hover ~ .Menu3 ,  .menu_display:hover ~  .Menu2{
+		display: block;
+		width: 100%;
+		padding:7px 0.8%;
+	}
+}
+
+@media all and (min-width: 660px){
+	#menu_container{
+		font-family : 'Open Sans',sans-serif;
+		content: "";
+		display: table;
+		padding: 0% 5% 0% 5%;
+		width: 90%;
+		background-color: #FFFFFF;
+	}
+
+	.Menu1:hover,.Menu2:hover , .Menu3:hover{
+		background-color: rdgba(45,45,45);
+	}
+
+	.Menu1,.Menu2{
+		display: inline-block;
+		padding:15px 0.8%;
+	}
+
+	.Menu1{
+		padding:19px 0.8%;
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	.Menu3{
+		display: none;
+	}
+
+	.menu_display{
+		display: inline-block;
+		float: right;
+		padding:20px 0.8%;
+	}
+
+	label{
+		cursor: pointer;		
+	}
+
+	.menu_display:hover ~ .Menu3{
+		display: block;
+		padding:7px 0.8%;
+	}
+
+}
+
+@media all and (min-width: 815px){
+	/*@import url("./larger_screen.css"); HOW TO USE THIS ?*/
+
+	#menu_container{
+		font-family : 'Open Sans',sans-serif;
+		content: "";
+		display: table;
+		padding: 0% 5% 0% 5%;
+		width: 90%;
+		background-color: #FFFFFF;
+	}
+
+	.Menu1:hover, .Menu2:hover, .Menu3:hover{
+		background-color: rdgba(45,45,45);
+	}
+
+	.Menu1,.Menu2{
+		display: inline-block;
+		padding:15px 0.8%;
+	}
+
+	.Menu1{
+		padding:19px 0.8%;
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	.Menu3{
+		display: inline-block;
+		float: right;
+		padding:20px 0.8%;
+	}
+
+	.menu_display{
+		display: none;
+	}
+}
+
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #5D4384;
+}
+
+
+#container2{
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+	margin-top: 65px;
+	text-align: center;
+	padding: 0% 3% 0% 3%;
+}
+
+#container2  h2{
+	display: inline-block;
+	width : 100px ;
+	font-size: 70px;
+	border : solid 1px ;
+	border-radius: 10px ;
+	margin: 0;
+}
+
+#container2 p{
+	font-size: 22px;
+}
+
+#container2 h4{
+	display : inline-block;
+	border: solid 1px white;
+
+	border-radius: 10px ;
+	margin: 0;
+	padding: 10px 2%;
+	font-size: 18px;
+}
+
+#container2 p:last-child{
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+#container3{
+	background: white;
+	font-family: 'Open Sans',sans-serif;
+	margin-top: 30px;
+	min-height: 239px;
+	text-align: center;
+	padding: 30px 3% 30px 3%;
+
+}
+
+#container3 p:first-child{
+	font-size: 30px; 
+	margin-bottom: 0px;
+}	
+
+#container3 p:last-child{
+	font-size: 16px; 
+	margin-bottom: 0px;
+}	
+
+

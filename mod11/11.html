@@ -1,52 +1,64 @@
 <html>
 	<head>
-		<title>Module 7</title>
+		<title>Module 7 Revisited</title>
 		<meta charset="utf-8">
     	<meta name="description" content="this being the 7th module of css">
-    	<link rel="stylesheet" href="./7.css"> 
+    	<link rel="stylesheet" href="./11.css"> 
     	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700' rel='stylesheet' type='text/css'> 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
+		<!-- ========================================================================================================
+			 This section reveals the status of payment made.
+			 3 div's are created .Each div bears the class of block, and consists of a div with a class of circle 
+			 and hr and p.
+			 P for description of status in words and the respective date. 
+		 	 ========================================================================================================
+		-->
 		<section id="sec1">
-			<div id="block1" class="block">
-				<div><div id="c1" class="circle">
+			<div class="block" id="block1" >
+				<div><div class="circle" id="c1">
 				</div><hr></div>
 				<p>Invoice Generated</p>
-				<p id="date">Oct 31</p>
+				<p class="date">Oct 31</p>
 			</div>
 			
-			<div id="block2" class="block">	
+			<div class="block" id="block2">	
 				<div><div id="c2" class="circle">
 				</div><hr></div>
 				<p>Reconciled</p>
-				<p id="date">Nov 09</p>
+				<p class="date">Nov 09</p>
 			</div>
-			<div id="block3" class="block">
+			<div class="block" id="block3">
 				<div><div id="c3" class="circle">
 				</div></div>
-					<p>Paid</p>
-					<p id="date" >Nov 24</p>
+				<p>Paid</p>
+				<p class="date" >Nov 24</p>
 			</div>	
 		</section>
 		<br>
 
-
-
+		<!-- ========================================================================================================
+			 This section reveals the advertisement metrics in dashboard.
+			 Having 2 sub sections , one for summary and other for graphs .
+			 Each consists of P and unordered list .
+			 Each list item consists of hr , icon (with i class) and text.
+		 	 ========================================================================================================
+		-->
 		<section id="sec2">
 			<h3>SHOW ADVERTISEMENT METRICS IN DASHBOARD	</h3>
-			<section id ="summary">	
+			<section class="advertisement_metrics" id ="summary">	
 				<p>Summary Metrics</p>
-				<ul id="summary_list" class="list">
+				<ul class="list" id="summary_list">
 					<li><span><hr></span><i class="fa fa-check"></i>TOTAL IMPRESSIONS</li>
 					<li><span><hr></span><i class="fa fa-check"></i>SPEND</li>						
 					<li><span><hr><hr></span><i class="fa fa-check"></i>CPA</li>
 				</ul>
 			</section>								
-			<section id="graphs">
+			<section class="advertisement_metrics" id="graphs">
 				<p>Graphs</p>
-				<ul id="graphs_list" class="list">
+				<ul class="list" id="graphs_list">
 					<li><span><hr></span><i class="fa fa-check"></i>IMPRESSIONS</li>
 					<li><span><hr></span><i class="fa fa-check"></i>SPEND</li>						
 					<li><span><hr></span><i class="fa fa-check"></i>CTR</li>
@@ -56,6 +68,11 @@
 			</section>
 		</section>
 		
+		<!-- ========================================================================================================
+			 This section reveals the Campaign status.
+			 Having 2 sub Block of sblock1 (Campaign status 1) and sblock2 (Campaign status 2) 
+		 	 ========================================================================================================
+		-->
 		<section id="sec3">
 			<div id="sblock1">
 				<ul id="sec3_status">
@@ -78,6 +95,5 @@
 				<button><h3>Pause</h3></button>
 			</div>
 		</section>
-
 	</body>
 </html>

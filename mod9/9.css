@@ -1,0 +1,84 @@
+body{
+	font-family : 'Open Sans',sans-serif;
+	font-size: 15px;
+	background: #F4F5F7;
+	color: #A0A0A0;
+	padding: 40px;
+}
+section{
+	text-align: center;
+}
+form{
+	display: inline-block;
+	text-align: center;
+	width : 300px;
+	padding : 35px 5.5%;
+	background-color: white;
+	border-top: solid 2px #EA887C;
+}
+
+form span{
+	color: #00AAEF;
+}
+
+div{
+	display: inline-block;
+	width: 100%;
+	border-bottom: solid 1px rgba(5,5,5,0.2);
+	margin: 10px 0 10px 0;
+	
+}
+
+
+p{
+	margin: 30px 0 30px 0 ;
+}
+
+div input{ 
+	font-size: 15px;
+	display: inline-block;
+	width : 70%;
+	padding:0 5%;
+	height: 20px;
+	border-style: none;
+	border-left: solid 1px #A0A0A0;
+
+}
+
+input[type=checkbox]{
+	position: relative;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	margin: 15px 10px 15px 0;
+	border: solid 1px #00AAEF;
+}
+
+#email label, #password label{
+	display: inline-block;
+	width: 15%;
+	height: 25px;
+	text-align : center;
+}
+input , button , p {
+	margin: 15px 0 15px 10px;
+}
+
+button{
+	background: #00AAEF;
+	border-style: none;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*-----------------DOUBTS -------------------------------*/
+
+/*Want to apply the margin only to the first level children of the form .
+  Are all the properties inherited ? How is it easy to find it ?*/
